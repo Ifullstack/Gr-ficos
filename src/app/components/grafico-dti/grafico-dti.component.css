@@ -1,0 +1,12 @@
+#dti {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    width: 100%;
+    height: 100%;
+}
+
+#leyenda {
+    margin-top: 50px;
+    box-shadow: 5px black;
+}

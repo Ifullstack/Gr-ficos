@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="row">
+        <div class="col-9">
+
+            <div id="dti" style="display: block">
+                <canvas baseChart [datasets]="radarChartData" [labels]="radarChartLabels" [chartType]="radarChartType" (chartHover)="chartHovered($event)" (chartClick)="chartClicked($event)"></canvas>
+            </div>
+
+        </div>
+
+        <div id="card" class="col-3 shadow-lg p-3 mb-5 bg-white rounded" text-center>
+
+            <img id="avatar" src="assets/avatar.png">
+            <div class="card" style="width: 18rem;">
+                <div id="leyenda" class="card-body ">
+                    <h5 class="card-title">María Jose</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Datos del Usuario</h6>
+                    <p class="card-text">Info Nodos 1</p>
+                    <p class="card-text">Info Nodos 2</p>
+                    <p class="card-text">Info Nodos 3</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <button type="button" [routerLink]="['/graficos']" class="btn btn-primary btn-sm">Regresar</button>
+</div>

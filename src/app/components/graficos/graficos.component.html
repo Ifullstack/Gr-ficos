@@ -1,0 +1,14 @@
+<div class="card mb-3" text-center>
+    <img id="grafo" class="card-img-top" src="assets/grafo.png/">
+    <div class="card-body" text-center>
+        <div class="btn-group" role="group">
+            <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                ELIGE GRÁFICO
+            </button>
+            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                <a class="dropdown-item" [routerLink]="['/dti']">Gráfico DTI</a>
+                <a class="dropdown-item" [routerLink]="['/frmi']">Gráfico FRMI</a>
+            </div>
+        </div>
+    </div>
+</div>
